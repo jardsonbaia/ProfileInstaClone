@@ -1,0 +1,29 @@
+@media (max-width: 549px) {
+
+	#div-search {
+		transition-duration: 200ms;
+		width: 20vw;
+	}
+
+	input#search {
+		transition-duration: 200ms;
+		width: 100%;
+	}
+
+	#search-icon{
+		display: none;
+	}
+
+}
+
+@media (max-width: 425px) {
+
+	#div-search {
+		transition-duration: 200ms;
+		display: none;
+	}
+
+	#buttons-icon {
+		width: 160px;
+	}
+}
